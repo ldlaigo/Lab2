@@ -202,76 +202,6 @@ li a:hover {
       </div>
     </li>
   </ul>
-<?php
-// 1. Introduction
-echo "Hello, World! <br><br>";
-
-// 2. Variables
-$name = "John";
-$age = 25;
-echo "My name is $name and I'm $age years old. <br><br>";
-
-// 3. Echo / Print
-echo "This is printed using the echo statement. <br>";
-print "This is printed using the print statement. <br><br>";
-
-// 4. Data Types
-$integer = 10;
-$float = 10.5;
-$string = "Hello";
-$boolean = true;
-$null_value = null;
-
-// 5. Operators & Math
-$num1 = 10;
-$num2 = 5;
-$sum = $num1 + $num2;
-$diff = $num1 - $num2;
-$product = $num1 * $num2;
-$quotient = $num1 / $num2;
-$remainder = $num1 % $num2;
-echo "Sum: $sum <br>";
-echo "Difference: $diff <br>";
-echo "Product: $product <br>";
-echo "Quotient: $quotient <br>";
-echo "Remainder: $remainder <br><br>";
-
-// 6. Conditionals
-$num3 = 20;
-if($num3 > 10) {
-    echo "$num3 is greater than 10. <br><br>";
-}
-
-// 7. Loops
-for($i=1; $i<=5; $i++) {
-    echo "$i <br>";
-}
-echo "<br>";
-
-// 8. Functions
-function square($num) {
-    return $num * $num;
-}
-echo "Square of 5 is " . square(5) . "<br><br>";
-
-// 9. Arrays
-$colors = array("Red", "Green", "Blue");
-echo "My favorite color is " . $colors[0] . "<br>";
-echo "Number of colors: " . count($colors) . "<br><br>";
-
-// 10. Superglobals
-echo "IP address: " . $_SERVER['REMOTE_ADDR'] . "<br>";
-echo "Filename: " . $_SERVER['PHP_SELF'] . "<br><br>";
-
-// 11. RegEx
-$string = "Hello, World!";
-$pattern = "/Hello/";
-if(preg_match($pattern, $string)) {
-    echo "Pattern found in the string. <br>";
-} else {
-    echo "Pattern not found in the string. <br>";
-}
-?>
 <a href="anime.vc/watch/bocchi-the-rock-17479?ep=95894">Watch Bocchi</a>
 <img src="https://media.tenor.com/vuF1B4DJMEIAAAAM/bocchi-the-rock-nijika.gif" alt="Crying Nijika">
 <p style="background-color:tomato;">Style Lesson</p>
@@ -280,7 +210,8 @@ if(preg_match($pattern, $string)) {
 <p style="background-color:tomato;">THIS IS A OBLIGATORY NIJIKA</p>
 <img src="https://cdn.myanimelist.net/images/characters/16/491305.jpg" alt="Obligatory Nijika">
 <p><q><i>I m-miss my sister</i></q> - Nijika 2022 </p>
-<?php
+
+    <?php
 $job = "developer";
 echo "My dream job is to become a " . $job . ". <br>";
 print "Nice to meet you! <br>";
@@ -288,7 +219,6 @@ $x = 2003;
 $y = 2023;
 $age = $y - $x;
 echo "Again I am". $age ."this year!"
-// 6. Conditionals
 if ($age >= 18) {
   echo "I may be eternally 15 but yes I am an adult. <br>";
 } else {
